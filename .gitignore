@@ -1,0 +1,5 @@
+/vlt.singleton
+/build
+/.gradle
+/.gradle/*
+/.idea
