@@ -2,7 +2,7 @@ package com.vlt.decorator;
 
 public abstract class BaseDecorator implements Notifier {
 
-    Notifier notifier;
+    protected Notifier notifier;
 
     BaseDecorator(Notifier notifier) {
         this.notifier = notifier;
